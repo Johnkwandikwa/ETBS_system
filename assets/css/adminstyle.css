@@ -1,0 +1,336 @@
+*{
+    padding:0;
+    margin:0;
+  }
+  
+  #heading{
+  
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  }
+  
+  
+  
+   #bodytitle{
+   margin-left: auto;
+   border-top: 5px solid green;
+   padding-left: 45%;
+  
+  }
+  
+  
+  
+  #booking{
+    position: relative;
+    left: 50px;
+    top:50%;
+    width: 90%;
+    color: white;
+    border: 5px solid black;
+    background-color: #181518;
+  
+  }
+  
+  
+  .navbar-brand img{
+    width: 300px;
+    height: 100px;
+    margin-left: 20px;
+  }
+  
+    #bookingsection{
+      padding:15px;
+      color:#ffffff;
+  
+  
+    }
+  
+    .bookingforminputs{
+      background-color: #181518;
+  
+    }
+  
+    #bookingsection h1{
+      float:left;
+    }
+  
+    #bookingsection form {
+      float:right;
+      margin-top:15px;
+    }
+  
+    #bookingsectioninput[type="email"]{
+      padding:4px;
+      height:25px;
+      width:250px;
+    }
+  
+  
+    .reg{
+      border: 5px solid black;
+  
+  
+      height: 950px;
+  
+    }
+    .reg, input[type=text]{
+      width: 100%;
+      display:inline-block;
+      margin: 3px;
+      border: 1px solid blanchedalmond;
+      margin-top: 20px;
+      margin: 5px 0 15px 0;
+    }
+  
+  
+  
+  
+  #footer{
+    margin-top: 100px;
+    background-color: #000000;
+    color: #ffffff;
+   }
+  
+   /* customer*/
+  
+   #customercare{
+     padding: 10px ;
+     padding-bottom:20;
+     border-top: 5px solid green;
+   }
+  
+   #customercare .col-md-4{
+     padding: 10px 30px;
+  
+   }
+   #customercare img{
+     width: 100px;
+     height: 100px;
+   }
+  
+   .messagehelp{
+     font-size: 16px;
+     padding: 7px 7px 7px 20px;
+     border-radius: 10px;
+     box-shadow: 0px 0px 20px 1px rgb(12, 12, 12);
+   }
+  
+   #ourservices{
+     padding-left:35%;
+     padding-right:25%;
+   }
+  
+   #ourservices img{
+     width: 100px;
+  
+   }
+  
+   #ourservices h2{
+     padding-left: 50%;
+   }
+  
+  
+  
+  
+  
+  
+  
+  .radiobutton {
+    margin: 0 20px;
+  }
+  .radiobutton .button {
+    margin:20px 10px 20px 0;
+  }
+  
+  .radiobutton .button::after{
+    content: '';
+    height: 15px;
+    width: 15px;
+    background-color: #f7ebeb;
+    display: inline-block;
+  
+    visibility: visible;
+    position: relative;
+  
+  }
+  
+  .radiobutton .button:checked::after{
+  content: '';
+  transition: 1s;
+  background-color: #0000;
+  }
+  
+  .radiobutton span{
+    color: rgb(22, 21, 21);
+  }
+  
+  .bookingform{
+    padding: 0 20px 20px;
+  
+  
+  
+  }
+  
+  .bookingform label{
+    margin-top: 7px;
+    margin-bottom: 3px;
+  
+    color: rgb(29, 28, 28);
+  }
+  
+  input::placeholder{
+    color: rgb(12, 12, 12);
+  }
+  
+  .bookinginputs{
+    font-size: 12px;
+    background: transparent;
+    border-radius: 0;
+    box-shadow: none;
+  }
+  
+  
+  
+  /*  Sign UP*/
+  
+  
+  
+  
+  
+  *{
+    box-sizing: border-box;
+  }
+  #formwrapinputs{
+    margin-bottom: 20px;
+    border: 5px solid #000000;
+    width: 70%;
+    height: 400px;
+  }
+  
+  input[type=text]{
+    width: 100%;
+    display:inline-block;
+    margin: 3px;
+    border: none;
+    margin-top: 20px;
+    margin: 5px 0 15px 0;
+  
+  }
+  input[type=password]{
+    width: 100%;
+    height:5%;
+    display:inline-block;
+    margin: 5px 0 15px 0;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  
+  }
+  
+  .registerbutton{
+    background-color: rgb(63, 58, 58);
+    padding: 15px 25px;
+    margin :6px 0;
+    border: none;
+    color: white;
+  
+  
+  }
+  
+  /*Sign In*/
+  #formwrap{
+    padding: 15px;
+    background: #fcf2f0;
+    width: 30%;
+  
+    display: inline-block;
+  
+  
+  
+  }
+  
+  
+  
+  *{
+    box-sizing: border-box;
+  }
+  #formwrapinputs{
+    margin-bottom: 20px;
+    border: 5px solid #000000;
+    width: 70%;
+    height: 400px;
+  }
+  
+  input[type=text]{
+    width: 100%;
+    display:inline-block;
+    margin: 3px;
+    border: 2px solid black;
+    margin-top: 20px;
+    margin: 5px 0 15px 0;
+  
+  }
+  input[type=password]{
+    width: 100%;
+    height:5%;
+    display:inline-block;
+    margin: 5px 0 15px 0;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  
+  }
+  
+  .registerbutton{
+    background-color: rgb(63, 58, 58);
+    padding: 15px 25px;
+    margin :6px 0;
+    border: none;
+    color: white;
+  
+  
+  }
+  
+  
+  
+  
+  /*admin panel  */
+  
+  
+  div#container{
+    width: 100%;
+    margin:0 auto;
+  }
+  
+  
+  .sidebar {
+    width:300px;
+    height: 599px;
+    background-color: black;
+    color: white;
+    float: left;
+  }
+  
+  .body{
+    width: auto;
+    height: 500px;
+    background-color: white;
+  }
+  
+  
+  ul #nav li{
+    list-style: none;
+  }
+  
+  ul #nav li a {
+    color:#ccc;
+    padding:15px;
+    display: block;
+  }
+
+  .addschedule{
+    border: 3px solid black;
+    padding-top:6px;
+  }
+  
