@@ -7,38 +7,42 @@ class Schedule_model extends CI_Model{
         $this->load->database();
     }
 
-    public function get_schedule(){
-       $query= $this->db->get('schedule');
-       if($query->num_rows()>0){
-           return $query ->result();
+    function insert_data($data){
+       $this->db->insert("schedule",$data);
+      }
 
-       }
 
-       
+     function fetch_data(){
+        $this->db->select("*");
+        $this->db->from("schedule");
+        $query=$this->db->get();
+        return $query;
+    }
 
-       // $query =$this->db->query("select*from schedule");
-        //return $query->result();
+    //public function vs function
+
+     function delete_data($Id){
+        $this->db->where("Id",$Id);
+        $this->db->delete("schedule");
+
 
     }
 
-    public function add_schedule(){
-
-    
-        $data=array(
-            'from_dest' =>$this->input->post('from_dest'),
-            'to_dest' =>$this->input->post('to_dest'),
-            'time' =>$this->input->post('time'),
-            'date' =>$this->input->post('date'),
-            'bus_ID' =>$this->input->post('bus_ID'),
-            'numberofseats' =>$this->input->post('numberofseats')
-        );
-
-         $this->db->insert('schedule',$data);
-
+     function fetch_single_data($Id){
+        $this->db->where("Id",$Id);
+        $query=$this->db->get("schedule");
+        return $query;
     }
+
+    function update_data($data,$Id){
+        $this->db->where("Id",$Id);
+        $this->db->update("schedule",$data);
+    }
+
+}
 
 
  
 
-}
+
 
